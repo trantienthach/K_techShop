@@ -1,0 +1,87 @@
+#user_info_wrapper {
+  display: flex;
+  width: 960px;
+  margin: 50px auto;
+  border: 1px solid #c3c3c3;
+  background-color: #fff;
+}
+.user_left_aside {
+  height: 100%;
+  padding: 10px;
+}
+.user_left_aside a {
+  display: block;
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #2980b9;
+}
+.user_left_aside a:hover {
+  color: #2ecc71;
+}
+.user_left_aside a i {
+  font-size: 0.9rem;
+  margin-right: 15px;
+}
+.user_info_ctn,
+.user_change_password {
+  border-left: 1px solid #c3c3c3;
+  padding: 10px;
+  /* display: none; */
+}
+.user_info_ctn h1 {
+  margin: 20px;
+  font-size: 1.8rem;
+  color: #34495e;
+}
+.user_change_password h1 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #34495e;
+}
+.infos {
+  margin: 20px;
+}
+.user_label {
+  margin: 20px 0;
+  color: #16a085;
+}
+.user_info {
+  color: #95a5a6;
+}
+.user_change_password {
+  width: 80%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.user_change_password form {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+.user_change_password form i {
+  margin-bottom: 20px;
+}
+.user_change_password form input {
+  margin: 10px 0;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #c3c3c3;
+}
+.user_change_password form input:focus {
+  border: 1px solid #2980b9;
+}
+.user_change_password form button {
+  padding: 8px;
+  background-color: #e74c3c;
+  border: 0;
+  outline: none;
+}
+.user_change_password form button a {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.user_change_password form label {
+  color: #2980b9;
+}

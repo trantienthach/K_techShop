@@ -1,0 +1,45 @@
+#forget_password_container {
+  width: 960px;
+  margin: 0 auto;
+}
+#forget_password_container h1 {
+  font-size: 2rem;
+  color: #c0392b;
+  margin: 40px;
+}
+#form_get_password {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+#form_get_password label {
+  color: #2980b9;
+  font-size: 0.9rem;
+  font-weight: bold;
+  /* margin-top: 10px; */
+  margin-bottom: 5px;
+}
+
+#form_get_password input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #2980b9;
+}
+
+.f_errors {
+  margin: 10px 0;
+  color: red;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.btn_pass {
+  outline: none;
+  background-color: #2980b9;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}

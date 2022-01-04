@@ -1,0 +1,36 @@
+.about__container {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_me {
+  line-height: 50px;
+}
+.about_me h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.about_me p {
+  color: #2c3e50;
+  font-weight: bold;
+}
+.about_me p > span {
+  font-weight: normal;
+}
+.about__img {
+  width: 45%;
+  position: relative;
+  height: 500px;
+}
+.about__img img {
+  width: 100%;
+  position: absolute;
+  height: 500px;
+  transition: 1s;
+}
+.about__img img:last-child:hover {
+  opacity: 0;
+  transition: 2s;
+}
